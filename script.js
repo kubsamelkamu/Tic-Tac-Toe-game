@@ -35,7 +35,7 @@ function handleCellClick(event) {
   
     // Display winner or tie message
     if (winner) {
-      message.textContent = `Winner of the game: ${winner}`;
+      message.textContent = `${winner} : Win the game`;
       cells.forEach(cell => cell.disabled = true); // Disable all cells after winner is found
     } else if (checkDraw()) {
       message.textContent = 'Draw!';
