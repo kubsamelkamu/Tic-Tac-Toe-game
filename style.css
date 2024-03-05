@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  #game-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ddd;
+    font-size: 3em;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  #message {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
