@@ -1,20 +1,33 @@
 body {
     font-family: sans-serif;
     text-align: center;
+    background-color: rgb(185, 185, 160);
   }
-  
+  #my-container {
+    position: absolute;
+    font-size: 30px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }  
   #game-board {
     display: flex;
     flex-wrap: wrap;
-    width: 600px;
-    margin: 0 auto;
+    width:350px;
+    position: absolute;
+    border: 5px solid rgb(70, 68, 68);
+    border-radius: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
     justify-content: center;
   }
   
   .cell {
     width: 100px;
     height: 100px;
-    border: 1px solid #ddd;
+    border: 1px solid #1c1a1a;
     font-size: 3em;
     cursor: pointer;
     margin: 5px;
